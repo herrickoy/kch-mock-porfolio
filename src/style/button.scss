@@ -1,0 +1,10 @@
+.btn {
+    @include base-btn();
+    
+    letter-spacing: 2px;
+
+    &#middle {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    }
+}
