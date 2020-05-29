@@ -3,7 +3,7 @@ import profilePicture from "../../../static/assets/images/bio/Koy-portfolio.png"
 
 export default function() {
   return (
-      <div className="content-page-wrapper">
+      <div className="about content-page-wrapper">
           <div className="left-column">
             <img src={profilePicture}></img>
           </div>
